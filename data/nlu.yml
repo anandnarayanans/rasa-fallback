@@ -1,0 +1,135 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - مرحبا
+    - سلام عليكم
+    - عايف
+    - تعطيك الصحة
+    - السلام
+    - كيفك
+    - أنت موجود؟
+    - تحيات
+    - تحية
+    - تحية طيبة
+    - شو أخبارك؟
+    - شكلك رائع
+    - كيف حالك اليوم؟
+    - كيف الحال؟
+    - كيف شعورك؟
+    - مرحبا أيها المستشار
+    - مرحبا للجميع
+    - مساء الخير
+    - مرحبا، أنا في حالجة إلى مساعدة
+    - يسرني لقاؤك
+    - من هذا؟
+    - مرحبا، أنا في حالجة إلى مساعدة
+
+- intent: banking_fee_inquiry
+  examples: |
+    - أحتاج إلى مساعدة بشأن الرسوم والتكاليف المتعلقة ببطاقة الائتمان بتاعي.
+    - أريد أن أعلم كم تكلفني بطاقة الائتمان.
+    - أنا في حاجة إلى مساعدة في العثور على رسوم بطاقة الائتمان خاصتي.
+    - أود أن أعلم ما هي تكاليف بطاقة الائتمان.
+    - أين توجد المعلومات عن رسوم بطاقة الائتمان؟
+    - التكاليف المشمولة في بطاقة الائتمان
+    - الما هي رسوم البطاقة؟
+    - كيف يمكنني دفع رسوم بطاقة الائتمان؟
+    - ما هي الرسوم المفروضة على بطاقة ائتمان جديدة؟
+    - ما هي رسوم البطاقة؟
+    - هل توجد أي تكاليف مفروضة على بطاقة الائتمان؟
+    - هل لازم أدفع أي مبلغ مقابل طلب بطاقة ائتمان عبر شركتكم؟
+
+- intent: location
+  examples: |
+    - اين موقعك
+    - اين فرعك
+    - اين العنوان
+    - [دبي](LOC) هل انت موجود في
+    - [الشارقة](LOC) ل انت موجود في
+    - [الهند](LOC) ل انت موجود في
+    - [لندن](LOC) هل انت موجود في
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
